@@ -1,0 +1,61 @@
+<main class="mb-3">
+    <h1>LISTA DE INSUMOS/ENSERES</h1>
+    <div class="row">
+        <div class="col-lg-12">
+            <a href="/inventario" > <button class="btn btn-secondary float-right">Regresar a Página anterior</button></a>
+        </div>
+    </div>
+</main>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav">
+    <a href="/ModificarArticulo/{{ nombre }}">Editar información del insumo/enser</a>
+    <a href="/EliminarInsumos/{{ nombre }}">Eliminar registro</a>
+    <div class="search-container">
+        <form action="/ListaInsumos" method="POST">
+            <input type="text" placeholder="Buscar" name="Buscar" >
+            <a href='javascript:;' onclick="parentNode.submit();"> <i class="fa fa-search"></i></a>
+        </form>
+        </div>
+</div>
+    
+
+<div class="rwd">
+    <div class="table table-hover">
+        <table class="table">
+        <thead>
+            <tr>
+                <th>NOMBRE DEL PRODUCTO</th>
+                <th>DESCRIPCIÓN</th>
+                <th>REGISTRO SANITARIO</th>
+                <th>STOCK</th>
+                <th>ALMACENAMIENTO</th>
+                <th>FECHA DE COMPRA</th>
+                <th>MARCA</th>
+                <th>CATEGORÍA</th>
+                <th>PROVEEDOR</th>
+                <th>NIT PROVEEDOR</th>
+                <th>TEL PROVEEDOR</th>
+            </tr>
+                </thead>
+            <tbody>
+                {% for producto in productos %}
+                    <tr>
+                        <td>{{ producto.nombre }}</td>
+                        <td>{{ producto.descripcion }}</td>
+                        <td>{{ producto.registro }}</td>
+                        <td>{{ producto.stock }}</td>
+                        <td>{{ producto.almacenamiento }}</td>
+                        <td>{{ producto.fecha }}</td>
+                        <td>{{ producto.marca }}</td>
+                        <td>{{ producto.categoria }}</td>
+                        <td>{{ producto.proveedor }}</td>
+                        <td>{{ producto.nit }}</td>
+                        <td>{{ producto.telefono }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

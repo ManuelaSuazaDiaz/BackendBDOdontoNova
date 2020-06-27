@@ -1,0 +1,65 @@
+<main class="mb-3">
+    <h1>LISTA DE PACIENTES</h1>
+    <div class="row">
+      <div class="col-lg-12">
+      <a href="/pacientes" > <button class="btn btn-secondary float-right">Regresar a Página anterior</button></a>
+    </div>
+    </div>
+</main>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav">
+        <a href="/ModificarInfo/{{ documento }}">Editar información del paciente</a>
+        <a href="/Eliminar/{{ documento }}">Eliminar registro</a>
+        <div class="search-container">
+            <form action="/EditarInfoPacientes", method="POST">
+                <input type="text" placeholder="Buscar Paciente" name="BuscarPaciente" id="doc">
+                <a href='javascript:;' onclick="parentNode.submit();"> <i class="fa fa-search"></i></a>
+            </form>
+        </div>
+    </div>
+    
+
+<div class="rwd">
+    <div class="table table-hover">
+        <table class="table">
+        <thead>
+            <tr>
+                <th>NOMBRE COMPLETO</th>
+                <th>EDAD</th>
+                <th>DOCUMENTO</th>
+                <th>TIPO DE SANGRE</th>
+                <th>DIRECCIÓN</th>
+                <th>SEXO</th>
+                <th>FECHA DE NACIMIENTO</th>
+                <th>E-MAIL</th>
+                <th>TELEFONO</th>
+                <th>TRATAMIENTO</th>
+                <th>NOMBRE ACUDIENTE</th>
+                <th>PARENTESCO</th>
+                <th>TELEFONO ACUDIENTE</th>
+            </tr>
+                </thead>
+            <tbody>
+                {% for paciente in pacientes%}
+                    <tr>
+                        <td>{{ paciente.nombres }} {{ paciente.apellidos }}</td>
+                        <td>{{ paciente.edad }}</td>
+                        <td>{{ paciente.documento }}</td>
+                        <td>{{ paciente.tipoSangre }}</td>
+                        <td>{{ paciente.direccion }}</td>
+                        <td>{{ paciente.genero }}</td>
+                        <td>{{ paciente.nacimiento }}</td>
+                        <td>{{ paciente.correo }}</td>
+                        <td>{{ paciente.telefono }}</td>
+                        <td>{{ paciente.tratamiento }}</td>
+                        <td>{{ paciente.acudiente }}</td>
+                        <td>{{ paciente.parentesco }}</td>
+                        <td>{{ paciente.telAcudiente }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>

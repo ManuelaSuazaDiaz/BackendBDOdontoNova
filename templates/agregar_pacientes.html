@@ -1,0 +1,103 @@
+
+<main class="mb-3">
+    <h1>AGREGAR NUEVO PACIENTE</h1>
+</main>
+  
+<form action="/AgregarPaciente" method="POST">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNombre4">Nombre</label>
+      <input type="text" class="form-control" id="inputNombre4" name="nombres">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputApellidos4">Apellidos</label>
+      <input type="text" class="form-control" id="inputApellidos4" name="apellidos">
+    </div>
+  </div>
+  <div class="form-group col-md-14">
+    <label for="inputDireccion2">Dirección</label>
+    <input type="text" class="form-control" id="inputDireccion2" placeholder="Calle 49..." name="direccion">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputid">Documento de Identidad </label>
+      <input type="text" class="form-control" id="inputDocumento" name="documento">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputTratamientos">Tratamientos</label>
+      <select id="inputTratamientos" class="form-control" name="tratamiento">
+        <option selected>-----</option>
+        <option selected>Ortodoncia</option>
+        <option selected>Endodoncia</option>
+        <option selected>Cirugía Oral / Maxilofacial</option>
+        <option selected>Odontopediatría</option>
+        <option selected>Diseño de Sonrisa</option>
+        <option selected>Periodoncia</option>
+        <option selected>Odontología General</option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="inputFecha">Fecha de nacimiento</label>
+        <input type="date" class="form-control" id="inputFecha" name="nacimiento">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="inputTel">Correo Electrónico</label>
+        <input type="text" class="form-control" id="inputCorreo" name="correo">
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="inputGenero">Sexo</label>
+        <select id="inputSexo" class="form-control" name="genero">
+          <option selected>-----</option>
+          <option selected>Hombre</option>
+          <option selected>Mujer</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputTel">Telefono/Celular</label>
+      <input type="text" class="form-control" id="inputTel" name="telefono">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputGrupoSanguineo">Grupo Sanguíneo</label>
+      <select id="inputGrupoSanguineo" class="form-control" name="tipoSangre">
+        <option selected>-----</option>
+        <option selected>O-</option>
+        <option selected>O+</option>
+        <option selected>A-</option>
+        <option selected>A+</option>
+        <option selected>B-</option>
+        <option selected>B+</option>
+        <option selected>AB-</option>
+        <option selected>AB+</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputNombreAcudiente ">Nombre completo del acudiente</label>
+      <input type="text" class="form-control" id="inputNombreAcudiente" name="acudiente">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputTelAcudiente ">Telefono/Celular del acudiente</label>
+      <input type="text" class="form-control" id="inputTelAcudiente" name="telAcudiente">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputParentesco">Parentesco</label>
+      <input type="text" class="form-control" id="inputParentesco" name="parentesco">
+    </div>
+  </div>
+  <div class="col text-center">   
+      <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck" name="check">
+        <label class="form-check-label" for="gridCheck">
+          Acepta términos y condiciones
+        </label>
+      </div>
+    </div>
+      <button type="submit" style="margin: 10px" class="btn btn-primary">Agregar</button>
+      <a href="/pacientes"><button style="margin: 10px" type="button" class="btn btn-primary">Atrás</button></a>
+  </div>
+
+</form>
+

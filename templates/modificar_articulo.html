@@ -1,0 +1,88 @@
+<main class="mb-3">
+    <h1>MODIFICAR INSUMO/ENSER </h1>
+</main>
+  
+<form action="/ModificarArticulo/{{ nombre }}" method="POST"> 
+  <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputNombre4">Nombre del Insumo/Enser</label>
+        <input type="text" class="form-control" id="inputNombre4" name="nombre" value="{{ producto.nombre }}">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputRS4">Registro Sanitario</label>
+        <input type="text" class="form-control" id="inputRS4" name="registro" value="{{ producto.registro }}">
+      </div>
+  </div>
+      <div class="form-group col-md-14">
+          <label for="inputDescripción2">Descripción</label>
+          <input type="text" class="form-control" id="inputDescripción2" placeholder="Producto que permite ..." name="descripcion" value="{{ producto.descripcion }}">
+      </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="precio">Stock</label>
+      <input type="text" class="form-control" id="precio" name="stock" value="{{ producto.stock }}">
+  </div>
+
+  <div class="form-group col-md-6">
+    <label for="inputAlmacenamiento">Almacenamiento</label>
+    <select id="inputAlmacenamiento" class="form-control" name="almacenamiento" value="{{ producto.almacenamiento }}">
+    <option selected>-----</option>
+    <option selected>A1: Instrumental básico</option>
+    <option selected>A2: Instrumental especializado</option>
+    <option selected>A3: Instrumental Medico Quirúrgico </option>
+    <option selected>B1: Material Ortodoncia</option>
+    <option selected>B2: Material Blanqueamientos</option>
+    <option selected>B3: Material Endodoncia</option>
+    <option selected>B4: Material Básico para Odontología</option>
+    <option selected>B4: Material Médico Quirúrgico</option>
+    <option selected>C1: Dispostivos de bioseguridad</option>
+    <option selected>C2: Composites dentales</option>
+    <option selected>C3: Fresas dentales</option>
+    <option selected>C4: Repuestos</option>
+    <option selected>D1: Mobiliario General</option>
+    <option selected>D2: Mobiliario Aseo</option>
+    <option selected>D3: Equipos Odontología</option>
+    <option selected>D4: Otros</option>
+  </select>
+  </div>
+
+  <div class="form-group col-md-6">
+    <label for="inputFecha">Fecha de compra</label>
+    <input type="date" class="form-control" id="inputFecha"  name="fecha" value="{{ producto.fecha }}">
+  </div>
+
+  <div class="form-group col-md-6">
+    <label for="inputMarca">Marca</label>
+    <input type="text" class="form-control" id="inputMarca" name="marca" value="{{ producto.marca }}">
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="inputCategoria">Categoría</label>
+    <select id="inputCategoria" class="form-control" name="categoria" value="{{ producto.categoria }}">
+      <option selected>-----</option>
+      <option selected>Insumo</option>
+      <option selected>Enser</option>
+    </select>
+  </div>
+  <div class="form-group col-md-4">
+    <label for="inputProveedor">Proveedor</label>
+    <input type="text" class="form-control" id="inputProveedor" name="proveedor" value="{{ producto.proveedor }}">
+  </div>
+  <div class="form-group col-md-2">
+    <label for="inputnitProveedor">NIT Proveedor</label>
+    <input type="text" class="form-control" id="inputnitProveedor" name="nit" value="{{ producto.nit }}">
+  </div>
+  <div class="form-group col-md-2">
+    <label for="inputTelProveedor ">Tel Proveedor</label>
+    <input type="text" class="form-control" id="inputTelProveedor" name="telefono" value="{{ producto.telefono }}">
+  </div>
+
+  <div class="col text-center">   
+    <div class="form-group">
+  </div>
+    <button type="submit" style="margin: 10px" class="btn btn-primary">Agregar</button>
+    <a href="/inventario"><button style="margin: 10px" type="button" class="btn btn-primary">Atrás</button></a>
+  </div>
+</div>
+</form>
+
