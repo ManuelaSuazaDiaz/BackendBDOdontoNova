@@ -1,0 +1,33 @@
+[{
+  "_id": 1,
+  "nombreEspecialista": "David Sanchez",
+  "especialidad": "ortodoncia y ortopedia maxilar"
+},{
+  "_id": 2,
+  "nombreEspecialista": "Alvaro Rincon",
+  "especialidad": "cirugia oral y maxilofacial"
+},{
+  "_id": 3,
+  "nombreEspecialista": "Samuel Suaza Diaz",
+  "especialidad": "Odontologo General y estético"
+},{
+  "_id": 4,
+  "nombreEspecialista": "Maria Catalina Botero Guevara",
+  "especialidad": "Ortodoncista"
+},{
+  "_id": 5,
+  "nombreEspecialista": "Johana Rangel Rincon",
+  "especialidad": "Periodoncista"
+},{
+  "_id": 6,
+  "nombreEspecialista": "Liza Maria Isaza",
+  "especialidad": "Endodoncista"
+},{
+  "_id": 7,
+  "nombreEspecialista": "Jose Manuel Velez Molina",
+  "especialidad": "Auxiliar de odontología"
+},{
+  "_id": 8,
+  "nombreEspecialista": "Cesar Sanchez",
+  "especialidad": "Rehabilitación Oral"
+}]

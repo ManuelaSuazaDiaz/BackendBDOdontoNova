@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "5ef12a23ab167904e7a0f8e1"
+  },
+  "nombres": "Valentina",
+  "apellidos": "Ardila Diaz",
+  "direccion": "Calle 101 sur #15b 52, Envigado",
+  "documento": "101261245",
+  "tratamiento": "Ortodoncia",
+  "nacimiento": "2005-05-12",
+  "correo": "Valenard@hotmail.com",
+  "genero": "Mujer",
+  "telefono": "3124567484",
+  "tipoSangre": "O+",
+  "acudiente": "Lucero Diaz Lopez",
+  "telAcudiente": "3113921157",
+  "parentesco": "Madre",
+  "edad": {
+    "$numberDecimal": "15"
+  }
+},{
+  "_id": {
+    "$oid": "5ef12a9aab167904e7a0f8e2"
+  },
+  "nombres": "Rodolfo",
+  "apellidos": "Valencia",
+  "direccion": "Calle 36 B Sur #40 56, Poblado",
+  "documento": "15456123",
+  "tratamiento": "Cirugía Oral / Maxilofacial",
+  "nacimiento": "1950-05-12",
+  "correo": "RValencia@hotmail.com",
+  "genero": "Hombre",
+  "telefono": "3112544784",
+  "tipoSangre": "A+",
+  "acudiente": "",
+  "telAcudiente": "",
+  "parentesco": "",
+  "edad": {
+    "$numberDecimal": "70"
+  }
+},{
+  "_id": {
+    "$oid": "5ef2c111d3ed0b0cfad6c297"
+  },
+  "nombres": "Manuela",
+  "apellidos": "Suaza Diaz",
+  "direccion": "Calle 49d sur #40a 469, Envigado",
+  "documento": "1034654521",
+  "tratamiento": "Odontología General",
+  "nacimiento": "1997-02-22",
+  "correo": "manusuaza@udea.edu.co",
+  "genero": "Mujer",
+  "telefono": "3195768051",
+  "tipoSangre": "AB+",
+  "acudiente": "Blanca Nelly Diaz",
+  "telAcudiente": "3113981196",
+  "parentesco": "Madre"
+},{
+  "_id": {
+    "$oid": "5ef78b751ea79dd8df0c1b3c"
+  },
+  "nombres": "Veronica",
+  "apellidos": "Martinez",
+  "direccion": "Calle 49 d sur #40 a 469",
+  "documento": "1037654524",
+  "tratamiento": "Diseño de Sonrisa",
+  "nacimiento": "2020-06-19",
+  "correo": "manuela.suaza@udea.edu.co",
+  "genero": "Hombre",
+  "telefono": "1233333",
+  "tipoSangre": "A+",
+  "acudiente": "Manuea",
+  "telAcudiente": "jddk",
+  "parentesco": "dnpof",
+  "edad": 0
+}]

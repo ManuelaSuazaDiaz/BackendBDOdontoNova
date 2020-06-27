@@ -1,0 +1,35 @@
+[{
+  "_id": 1,
+  "fechayhora": {
+    "$date": "2020-01-15T10:00:00Z"
+  },
+  "pacientes": [
+    {
+      "_id": 3
+    }
+  ],
+  "especialistas": [
+    {
+      "_id": 1
+    }
+  ]
+},{
+  "_id": 2,
+  "fechayhora": {
+    "$date": "2020-01-15T10:00:00Z"
+  },
+  "pacientes": [
+    {
+      "_id": 3
+    }
+  ],
+  "especialistas": [
+    {
+      "_id": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5ef7b9ce1ea79dd8df0c1b3e"
+  }
+}]

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "5ef789871ea79dd8df0c1b3b"
+  },
+  "nombre": "Guantesddd",
+  "registro": "dd",
+  "descripcion": "asnf",
+  "stock": "a13",
+  "almacenamiento": "B2: Material Blanqueamientos",
+  "fecha": "2020-06-10",
+  "marca": "dddddd",
+  "categoria": "Insumo",
+  "proveedor": "kk",
+  "nit": "d",
+  "telefono": "dddddd"
+},{
+  "_id": {
+    "$oid": "5ef7ae171ea79dd8df0c1b3d"
+  },
+  "nombre": "ssss",
+  "registro": "8383834",
+  "descripcion": "asnf",
+  "stock": "s",
+  "almacenamiento": "A3: Instrumental Medico Quirúrgico",
+  "fecha": "2020-06-10",
+  "marca": "snnd",
+  "categoria": "Enser",
+  "proveedor": "kk",
+  "nit": "aa2222",
+  "telefono": "s"
+}]

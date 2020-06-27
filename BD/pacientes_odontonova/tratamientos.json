@@ -1,0 +1,91 @@
+[{
+  "_id": 1,
+  "nombreTratamiento": "ORTODONCIA",
+  "costo": 1700000,
+  "especialistas": [
+    {
+      "_id": 4
+    }
+  ]
+},{
+  "_id": 2,
+  "nombreTratamiento": "IMPLANTES DENTALES",
+  "costo": 4000000,
+  "especialistas": [
+    {
+      "_id": 8
+    }
+  ]
+},{
+  "_id": 3,
+  "nombreTratamiento": "DIAGNÓSTICO Y PREVENCIÓN",
+  "costo": 100000,
+  "especialistas": [
+    {
+      "_id": 3
+    }
+  ]
+},{
+  "_id": 4,
+  "nombreTratamiento": "ESTÉTICA DENTAL",
+  "costo": 2000000,
+  "especialistas": [
+    {
+      "_id": 4
+    }
+  ]
+},{
+  "_id": 5,
+  "nombreTratamiento": "PERIODONCIA",
+  "costo": 1000000,
+  "especialistas": [
+    {
+      "_id": 5
+    }
+  ]
+},{
+  "_id": 6,
+  "nombreTratamiento": "ODONTOPEDIATRÍA",
+  "costo": 1000000,
+  "especialistas": [
+    {
+      "_id": 2
+    }
+  ]
+},{
+  "_id": 7,
+  "nombreTratamiento": "PRÓTESIS",
+  "costo": 8000000,
+  "especialistas": [
+    {
+      "_id": 3
+    }
+  ]
+},{
+  "_id": 8,
+  "nombreTratamiento": "CARIES",
+  "costo": 100000,
+  "especialistas": [
+    {
+      "_id": 3
+    }
+  ]
+},{
+  "_id": 9,
+  "nombreTratamiento": "BRUXISMO",
+  "costo": 1000000,
+  "especialistas": [
+    {
+      "_id": 1
+    }
+  ]
+},{
+  "_id": 10,
+  "nombreTratamiento": "SENSIBILIDAD DENTAL",
+  "costo": 100000,
+  "especialistas": [
+    {
+      "_id": 5
+    }
+  ]
+}]
