@@ -1,0 +1,77 @@
+
+body > header {
+    background-color: #142850;
+    color: white;
+    padding: 20px;}
+    
+body > header > img {
+    display:block;
+    margin:auto; }
+
+main {
+    background-color: #27496d;
+    padding: 10px;}
+  
+  main > h1 {
+    text-align: center;
+    font-family: monospace;
+    color: white;}
+    
+    
+  
+  body button {
+      display: inline-block;
+      background-color: #142850;
+      color: white;
+      padding: 8px 30px;
+      font-size: 15px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      border-radius: 15%;
+      border: none;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+  
+  
+   /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+  .icon-bar {
+    position:  absolute; 
+      right: 0; 
+      top: 400px; 
+      z-index: 2000;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .instagram{
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .whatsapp{
+    background: #25d366;
+    color: white;
+  }
+  
+  
+  
